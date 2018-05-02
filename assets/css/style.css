@@ -13,7 +13,8 @@ body {
 h1,h2,h3,
 h4,h5,h6 {
     padding: 5px;
-    background-color: rgba(99, 213, 233, 0.664);
+    border-bottom: rgba(23, 156, 161, 0.432) solid 5px;
+    /* background-color: rgba(99, 213, 233, 0.664); */
 }
 #title-image, #gameover-image, #weiner-image{ 
     display: block;

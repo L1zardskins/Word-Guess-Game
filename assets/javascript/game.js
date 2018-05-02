@@ -64,7 +64,7 @@ function updateHTML() {
         document.getElementById("currentWord").innerText += guessingWord[i];
     }
     document.getElementById("remainingGuesses").innerText = remainingGuesses;
-    document.getElementById("guessedLetters").innerText = guessedLetters;
+    document.getElementById("guessedLetters").innerText = guessedLetters.join(" | ");
     if (remainingGuesses <= 0) {
         document.getElementById("gameover-image").style.cssText = "display: block";
         document.getElementById("pressKeyTryAgain").style.cssText = "display:block";
